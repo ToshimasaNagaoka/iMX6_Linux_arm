@@ -6,7 +6,11 @@
 #include <linux/crypto.h>
 #include <crypto/aes.h>
 
+
+
 #define AES_MAXNR 14
+
+/* Git Diff Test */
 
 typedef struct {
 	unsigned int rd_key[4 *(AES_MAXNR + 1)];

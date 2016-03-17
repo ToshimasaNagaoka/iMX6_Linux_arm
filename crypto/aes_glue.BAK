@@ -11,7 +11,6 @@
 #define AES_MAXNR 14
 
 /* Git Diff Test */
-/* Git Diff Test 2 */
 
 typedef struct {
 	unsigned int rd_key[4 *(AES_MAXNR + 1)];

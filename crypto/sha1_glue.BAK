@@ -24,8 +24,6 @@
 #include <crypto/sha.h>
 #include <asm/byteorder.h>
 
-// Git History test
-
 struct SHA1_CTX {
 	uint32_t h0,h1,h2,h3,h4;
 	u64 count;
